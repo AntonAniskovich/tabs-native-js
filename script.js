@@ -2,8 +2,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
     'use strict';
 
-
-
     function tabsFunction(tabs, tabsContainer, tabsContent) {
         let tab = document.querySelectorAll('.' + tabs),
             info = document.querySelector('.' + tabsContainer),
